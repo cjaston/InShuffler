@@ -88,13 +88,13 @@ int main() {
 				if (cardStack[d] == bottom_card || cardStack[d] == top_card) {			//check if either card is found during increment
 					if (cardStack[d + 1] == bottom_card || cardStack[d + 1] == top_card) {	//check if next card is either card we are looking for
 						std::cout << "It took " << touching << " shuffles for bottom and top cards to touch from the initial configuration!\n";
-						breaker = true;																	//return loop counter and break loop
+						breaker = true;							//return loop counter and break loop
 					}
 				}
 			}
 		}	
 		std::cout << "[Press 1 to continue] \n[Press 0 to break] " << "\n";				//for ease of use in multiple case testing
-		std::cin >> end;																				//breaks final while loop
+		std::cin >> end;										//breaks final while loop
 	}
 	return 0;
 };
