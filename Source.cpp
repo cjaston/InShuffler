@@ -99,4 +99,3 @@ int main() {
 	return 0;
 };
 
-// Thanks so much for the opportunity! - Christopher Jaston
